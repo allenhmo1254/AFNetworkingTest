@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <AFNetworking.h>
+#import "ZJHttpRequest.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    ZJHttpRequest *request = [[ZJHttpRequest alloc] initWithUrl:@"http://m2.yinjitv.com/api/system/time" method:ZJHttpRequestMethodGet];
+    
+    request.requestSuccessfulHandler = ^(ZJHttpRequest *request)
+    {
+        NSLog(@"requestSuccessfulHandler");
+    };
+    
+    request.requestFailedHandler = ^(ZJHttpRequest *request, NSError *error)
+    {
+        NSLog(@"error = %@",error.description);
+    };
+    
+    [request execute];
 }
 
 
