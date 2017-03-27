@@ -17,6 +17,7 @@
 		4E6C084B1E2E2F7E00D95BB0 /* ZJHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C084A1E2E2F7E00D95BB0 /* ZJHttpRequest.m */; };
 		4E6C084F1E2E3A5400D95BB0 /* ZJDefaultHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C084E1E2E3A5400D95BB0 /* ZJDefaultHttpResponseHandler.m */; };
 		4E6C08521E2E495400D95BB0 /* ZJHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C08511E2E495400D95BB0 /* ZJHttpClient.m */; };
+		4EE6BB9D1E88AD4500BAEDBB /* ZJHttpBusinessRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6BB9C1E88AD4500BAEDBB /* ZJHttpBusinessRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,8 @@
 		4E6C084E1E2E3A5400D95BB0 /* ZJDefaultHttpResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDefaultHttpResponseHandler.m; sourceTree = "<group>"; };
 		4E6C08501E2E495400D95BB0 /* ZJHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHttpClient.h; sourceTree = "<group>"; };
 		4E6C08511E2E495400D95BB0 /* ZJHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHttpClient.m; sourceTree = "<group>"; };
+		4EE6BB9B1E88AD4500BAEDBB /* ZJHttpBusinessRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHttpBusinessRequest.h; sourceTree = "<group>"; };
+		4EE6BB9C1E88AD4500BAEDBB /* ZJHttpBusinessRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHttpBusinessRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				4E6C08221E2E083800D95BB0 /* LaunchScreen.storyboard */,
 				4E6C08251E2E083800D95BB0 /* Info.plist */,
 				4E6C08141E2E083800D95BB0 /* Supporting Files */,
+				4EE6BB9B1E88AD4500BAEDBB /* ZJHttpBusinessRequest.h */,
+				4EE6BB9C1E88AD4500BAEDBB /* ZJHttpBusinessRequest.m */,
 			);
 			path = AFNetworkingTest;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 				4E6C081C1E2E083800D95BB0 /* ViewController.m in Sources */,
 				4E6C08191E2E083800D95BB0 /* AppDelegate.m in Sources */,
 				4E6C08161E2E083800D95BB0 /* main.m in Sources */,
+				4EE6BB9D1E88AD4500BAEDBB /* ZJHttpBusinessRequest.m in Sources */,
 				4E6C084F1E2E3A5400D95BB0 /* ZJDefaultHttpResponseHandler.m in Sources */,
 				4E6C084B1E2E2F7E00D95BB0 /* ZJHttpRequest.m in Sources */,
 			);
